@@ -1,3 +1,5 @@
+/*Comon CSS Section Start */
+
 * {
     margin: 0px;
     padding: 0px;
@@ -6,6 +8,9 @@
     margin-top: 20px;
 
 }
+
+/*Comon CSS Section End  */
+/* Header Section Start  */
 
 .header-section {
 
@@ -44,3 +49,5 @@
     width: 80%;
     height: 400px;
 }
+
+/* Header Section End   */
