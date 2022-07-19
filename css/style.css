@@ -51,3 +51,43 @@
 }
 
 /* Header Section End   */
+/* Match Section Start */
+.match-section {
+    display: flex;
+}
+
+.match-btn {
+    background-color: #1E1E1E;
+    display: flex;
+    flex-basis: 20%;
+    flex-direction: column;
+    padding: 10px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.match-btn button {
+    padding: 10px 50px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.match-cart {
+    flex-basis: 80%;
+    width: 100px;
+}
+.icon-section{
+    display: flex;
+}
+.hours-section{
+    display: flex;
+    flex-basis: 50%;
+}
+.message-section{
+    display: flex;
+    flex-basis: 50%;
+}
+/* Match Section End  */
