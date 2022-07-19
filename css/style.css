@@ -67,10 +67,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 312px;
-    height: 312px;
+    width: 250px;
+    height: 300px;
     border: 1px solid red;
     border-radius: 10px;
+    padding:20px 5px;
 }
 
 .match-btn button {
@@ -78,23 +79,24 @@
     background: whitesmoke;
     border: none;
     border-radius: 10px;
-    width: 300px;
-    font-size: 20px;
+    width: 200px;
+    font-size: 16px;
     font-weight: bolder;
+    margin-left: 20px;
 }
 
 .match-card {
     margin-left: -30px;
     display: grid;
-    grid-gap: 10px;
-    width: 900px;
-    grid-template-columns: 312.32px, 312.32px, 312.32px;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .card {
+
+    margin-left: 10px;
     margin-top: 0px;
-    border: 1px solid salmon;
-    width: 312.32px;
+  
+    width: 250px;
     height: 362px;
 
 }
@@ -113,4 +115,14 @@ p {
 
 }
 
+.card  button{
+    padding: 5px 20px;
+    background: none;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.card p{
+    font-size: 18px;
+    font-weight: bolder;
+}
 /* Match Section End  */
