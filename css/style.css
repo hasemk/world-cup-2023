@@ -21,6 +21,15 @@ font-family: 'Poppins', sans-serif;
 
 }
 
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
 /*Comon CSS Section End  */
 /* Header Section Start  */
 
@@ -101,6 +110,7 @@ font-family: 'Poppins', sans-serif;
 
 .match-btn button:active {
     background-color: red;
+    color: whitesmoke;
 }
 
 .match-card {
@@ -146,3 +156,27 @@ p {
 }
 
 /* Match Section End  */
+/* Footer Section Start */
+footer {
+    background: #1E1E1E;
+    margin-inline: 0px;
+}
+
+footer .title {
+    text-align: center;
+    color: whitesmoke;
+    padding: 50px;
+
+}
+
+footer ul {
+    display: flex;
+    padding: 50px;
+   
+   
+}
+footer ul li {
+    color: whitesmoke;
+}
+
+/* Footer Section End  */
