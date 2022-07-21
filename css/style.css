@@ -38,7 +38,7 @@ a {
     background: #1E1E1E;
     display: flex;
     border-radius: 20px;
-    height: 440px;
+    
 }
 
 .header-title {
@@ -180,3 +180,13 @@ footer ul li {
 }
 
 /* Footer Section End  */
+@media screen and  (max-width:552px) {
+    .header-section{
+        background-color: #DD0000;
+        flex-direction: column;
+    }
+    .header-title{
+        text-align: center;
+    }
+    
+}
